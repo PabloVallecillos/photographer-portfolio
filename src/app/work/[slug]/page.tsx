@@ -2,6 +2,8 @@ import { createClient } from "@/lib/supabase/server";
 import ProjectClient from "@/components/ProjectClient";
 import { notFound } from "next/navigation";
 
+export const dynamic = "force-dynamic";
+
 export default async function ProjectPage({
   params,
 }: {

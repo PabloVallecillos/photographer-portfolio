@@ -2,6 +2,8 @@ import { createClient } from "@/lib/supabase/server";
 import Link from "next/link";
 import PublishToggle from "@/components/dashboard/PublishToggle";
 
+export const dynamic = "force-dynamic";
+
 export default async function ProjectsPage() {
   const supabase = await createClient();
 

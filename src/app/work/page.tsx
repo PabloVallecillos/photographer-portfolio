@@ -1,6 +1,8 @@
 import { createClient } from "@/lib/supabase/server";
 import WorkClient from "@/components/WorkClient";
 
+export const dynamic = "force-dynamic";
+
 export default async function WorkPage() {
   const supabase = await createClient();
 
