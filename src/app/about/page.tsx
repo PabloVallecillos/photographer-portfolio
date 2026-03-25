@@ -2,7 +2,6 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
-import Link from "next/link";
 
 const awards = [
   { year: "2024", title: "International Photography Award", category: "Architecture" },
